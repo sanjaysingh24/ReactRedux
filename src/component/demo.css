@@ -1,0 +1,31 @@
+.quantity_plus{
+    padding: 15px;
+    background: rgb(131, 117, 117);
+    margin-left: 10px;
+}
+.quantity_minus{
+    padding: 15px;
+    background: rgb(131, 117, 117);
+    margin-right: 10px;
+}
+.quantity_input{
+    background: grey;
+    width: 10%;
+    padding: 10px;
+    
+}
+.quantity{
+    background: gainsboro;
+    padding:10px;
+    width: 30%;
+    position: absolute;
+    top: 60%;
+
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon{
+    color: black;
+    font-weight: 800;
+    font-size: 21px;
+}
