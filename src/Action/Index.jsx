@@ -10,3 +10,9 @@ export const decnumber  =()=>{
         type:"DECREMENT"
     }
 }
+export const senddata  =(payload)=>{
+    return {
+        type:"SENDDATA",
+        payload:payload
+    }
+}

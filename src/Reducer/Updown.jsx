@@ -1,12 +1,10 @@
 
-const intialvalue = 20;
-const changeTheNumber =(state=intialvalue,action)=>{
-switch(action.type){
-    case 'INCREMENT':
-        return state+1;
-    case "DECREMENT":
-        return state-1;
 
+const changeTheNumber =(state='',action)=>{
+switch(action.type){
+    
+    case "SENDDATA":
+        return action.payload;
     default: return state;
 }
 }
